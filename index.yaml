@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-02T09:03:27.741852396Z"
+    description: A Helm chart for Kubernetes
+    digest: 34fa62ef066ed136387d73e3eb8824285e638f64c54e24c27babda862fe3841c
+    name: test
+    type: application
+    urls:
+    - https://github.com/Diafwl/helm-repo/releases/download/test-0.1.0/test-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-02T09:03:27.741859239Z"
