@@ -2,8 +2,11 @@ name: Release Charts
 
 on:
   push:
-    branches:
-      - main
+    branches: ["gh-pages"]
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   release:
